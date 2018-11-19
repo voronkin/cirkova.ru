@@ -15,18 +15,17 @@
     <title>CK Production - Photo & Video Production</title>
   </head>
   <body>
-    <div class="container">
-      <!-- header -->
-      <?php include 'header.php';?>            
+    <!-- header -->
+    <?php include 'header.php';?>            
+    <div class="container">      
       <!-- main-->      
       <div class="row">
         <div class="col-sm-3">
           <h3 class="h3-custom">АКТЁРАМ</h3>
           <div class="card">
             <a href="actors.php"><img class="card-img-top" src="img/01.jpg" alt="Card image cap"></a>            
-            <div class="card-body">              
-              <button type="button" class="btn-block btn-outline-secondary" onclick="location.href = 'actgal.php'">Photo gallery</button>
-              <button type="button" class="btn-block btn-outline-secondary" onclick="location.href = 'actors.php'"><strong>ВЫБРАТЬ ТАРИФ</strong></button>
+            <div class="card-body">                            
+              <button type="button" class="btn-block btn-xl-red" onclick="location.href = 'actors.php'"><strong>ПОСМОТРЕТЬ<br>ТАРИФЫ</strong></button>
             </div>
           </div>
         </div>        
@@ -34,9 +33,8 @@
           <h3 class="h3-custom">БИЗНЕС-ПОРТРЕТ</h3>
           <div class="card">
             <a href="business.php"><img class="card-img-top" src="img/02.jpg" alt="Card image cap"></a>     
-            <div class="card-body">
-              <button type="button" class="btn-block btn-outline-secondary" onclick="location.href = 'busgal.php'">Photo gallery</button>
-              <button type="button" class="btn-block btn-outline-secondary" onclick="location.href = 'business.php'"><strong>ВЫБРАТЬ ТАРИФ</strong></button>
+            <div class="card-body">              
+              <button type="button" class="btn-block btn-xl-red" onclick="location.href = 'business.php'"><strong>ПОСМОТРЕТЬ<br>ТАРИФЫ</strong></button>
             </div>
           </div>
         </div>
@@ -44,35 +42,40 @@
           <h3 class="h3-custom">KIDS</h3>
           <div class="card">
             <a href="kids.php"><img class="card-img-top" src="img/03.jpg" alt="Card image cap"></a>     
-            <div class="card-body">
-              <button type="button" class="btn-block btn-outline-secondary" onclick="location.href = 'kidsgal.php'">Photo gallery</button>
-              <button type="button" class="btn-block btn-outline-secondary" onclick="location.href = 'kids.php'"><strong>ВЫБРАТЬ ТАРИФ</strong></button> 
+            <div class="card-body">              
+              <button type="button" class="btn-block btn-xl-red" onclick="location.href = 'kids.php'"><strong>ПОСМОТРЕТЬ<br>ТАРИФЫ</strong></button> 
             </div>
           </div>
         </div>
         <div class="col-sm-3">
-          <h3 class="h3-custom">ОБО МНЕ</h3>
+          <h3 class="h3-custom">ВИДЕО</h3>
           <div class="card">
-            <img class="card-img-top" src="img/04.jpg" alt="Card image cap">
+            <img class="card-img-top" src="img/04.jpg" alt="ВИДЕО">
             <div class="card-body">              
-              <button type="button" class="btn-block btn-outline-secondary" onclick="location.href = 'aboutme.php'">ПОДРОБНЕЕ</button>
+              <button type="button" class="btn-block btn-xl-red" onclick="location.href = 'aboutme.php'"><strong>ПОСМОТРЕТЬ<br>ТАРИФЫ</strong></button>
             </div>
           </div>
         </div>
       </div>
+      <br>      
+      <h4 class="text-center">Акция <strong>"СООБРАЖАЕМ НА ТРОИХ"</strong></h4>
+      <h4 class="text-center">Приводи двух друзей и получайте скидку на фото и видеосъёмку!</h4>
+      <br>
+      <h4 class="text-center">Специальные условия для студентов и учащихся киношкол.</h4>
       <br>
       <div class="row">
-        <div class="col-sm-6">
-          <h4 style="text-align:left">Нажми на кнопку <strong>"ВЫБРАТЬ ТАРИФ"</strong> и узнай о специальных условиях для студентов и учащихся киношкол.</h4>
+        <div class="col-sm-4">
+          <img class="card-img-top" src="img/me.png" alt="Card image cap">
         </div>
-        <div class="col-sm-6">
-          <h4 style="text-align:right">Акция "СООБРАЖАЕМ НА ТРОИХ"<br>Приводи двух друзей и получайте скидку на фото и видеосъёмку!</h4>
+        <div class="col-sm-8">
+          <h5>Привет.</h5>          
+          <p>Я - Катерина Циркова - фотограф и режиссер.<br>Закончила курсы режиссуры Александра Митты.<br>Сейчас сама преподаю фотографию в школе телевидения VIDEOFORME.<br>И, конечно же, снимаю. Мне нравится находить образы, которые подходят под психологию человека, его внешность и искать способы раскрепостить его во время съемки.<br>Ко мне на курс приходят ученики из разных профессий, чаще всего мои студенты не только учатся фотосъёмке, но и бывают на месте модели.<br> Кто-то легко расслабляется, а кто-то, несмотря на публичную деятельность замыкается перед камерой. Мне всегда было интересно находить интересные ракурсы, фиксировать истинные эмоции человека.<br>Я долго искала разные техники по раскрепощению, и открыла для себя технику в жанре Headshot.<br>Особенность этого стиля заключается в том, что фотограф выступает ещё и в качестве психолога. Задача такой фотографии передать ваши эмоции и уникальность, сделать её "живой". А это важно.<br>Я выделила три главных составляющих хорошего портрета:<br>Открытость<br>Естественность<br>Узнаваемость<br>Именно эти три компонента помогают мне передать вашу личность. Это особенно важно тем, кто связан с бизнесом, деловым людям, а также представителям творческих профессий: ведущим и актёрам!<br>Фотосъёмка и видеосъёмка CK Production - это не только щелчок затвора, это целый продакшен, от создания идеи, концепции, до съёмки и постпродакшена.</p>
         </div>
 
       </div>
-      <!-- footer-->
-      <?php include 'footer.php';?>      
     </div>
+    <!-- footer-->
+    <?php include 'footer.php';?>      
 
 
 

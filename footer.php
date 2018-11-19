@@ -1,6 +1,5 @@
-<hr>
-<h4 style="text-align:center">Выбрали удобный тариф? Заполняйте форму и я свяжусь с вами в течение 24 часов.<br>Если дело срочное, звоните не раздумывая, буду рада помочь!</h4>
-<div class="row bg-custom">
+<footer>
+<div class="row foofooter">
           <div class="col-sm-6"> <h5><strong>КОНТАКТЫ</strong></h5>            
             <a href="mailto:katerinacirkova3@gmail.com">katerinacirkova3@gmail.com</a> / 8 901 700 45 11
             <div class="row">
@@ -14,12 +13,12 @@
                 <i class="fab fa-instagram fa-2x"></i>
               </div>
               <div class="col-sm-6">
-                Я в соцсетях. Подключайтесь и следите за акциями.
+                Я в соцсетях.<br>Подключайтесь и следите за акциями.
               </div>
               <div class="col-sm-3">
               </div>
             </div>
-            <a href="policy.php">Политика конфиденциальности</a>
+            <p><a href="policy.php">Политика конфиденциальности</a></p>
             <p>(c) 2018 cirkovaphoto</p>
           </div>
           <div class="col-sm-3">
@@ -58,4 +57,5 @@
             
           </ul>
           </div>
-        </div>
+  </div>
+<footer>

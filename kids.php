@@ -15,9 +15,9 @@
     <title>CK Production - Photo & Video Production</title>
   </head>
   <body>
-    <div class="container">
-      <!-- header -->
-      <?php include 'header.php';?>            
+    <!-- header -->
+    <?php include 'header.php';?>            
+    <div class="container">      
       <!-- main-->      
       <h2 class="text-center">KIDS</h2>
       <h4 class="text-center">АКТЁРСКОЕ ПОРТФОЛИО & МОДЕЛЬНЫЕ ТЕСТЫ</h4>
