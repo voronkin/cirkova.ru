@@ -7,8 +7,11 @@ nav .social {
 }
 
 .navbar {
+  font-family: 'Roboto', sans-serif;
+  color: #A7A7A7;
   background-color: #EBEBEB;
   padding: 5px 15px 0px 15px;
+  font-size: 1.75rem;
 }
 
 .bg-custom {
@@ -42,6 +45,7 @@ nav .social {
 }
 
 .h3-custom {
+  font-family: 'Roboto', sans-serif;
 	text-align:center;
 	margin-top:25px;
 	margin-bottom:25px;
