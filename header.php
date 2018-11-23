@@ -21,13 +21,13 @@
                     <a class="nav-link" href="">ВИДЕО</a>
                 </li>
                 <li class="nav-item social">
-                  <a href="http://instagram.com/cirkovaphoto"><i class="fab fa-instagram fa-2x"></i></a>
+                  <a href="https://www.instagram.com/cirkovaprod/"><i class="fab fa-instagram fa-2x"></i></a>
                 </li>
                 <li class="nav-item social">
-                    <a href="http://facebook.com/cirkovaphoto"><i class="fab fa-facebook fa-2x"></i></a>
+                    <a href="https://www.facebook.com/cirkovaph"><i class="fab fa-facebook fa-2x"></i></a>
                 </li>
                 <li class="nav-item social">
-                    <a href="http://vk.com/cirkovaphoto"><i class="fab fa-vk fa-2x"></i></a>
+                    <a href="https://vk.com/cirkovaprod"><i class="fab fa-vk fa-2x"></i></a>
                 </li>
             </ul>
         </div>        

@@ -13,7 +13,7 @@
                 <i class="fab fa-instagram fa-2x"></i>
               </div>
               <div class="col-sm-6">
-                Я в соцсетях.<br>Подключайтесь и следите за акциями.
+                Я в соцсетях.<br>Подключайтесь<br>и следите за акциями.
               </div>
               <div class="col-sm-3">
               </div>

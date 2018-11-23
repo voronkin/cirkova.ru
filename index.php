@@ -62,7 +62,7 @@
       <h4 class="text-center">Приводи двух друзей и получайте скидку на фото и видеосъёмку!</h4>
       <br>
       <h4 class="text-center">Специальные условия для студентов и учащихся киношкол.</h4>
-      <br>
+      <br>  
       <div class="row">
         <div class="col-sm-4">
           <img class="card-img-top" src="img/me.png" alt="Card image cap">
