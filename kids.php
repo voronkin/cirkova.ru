@@ -17,14 +17,16 @@
   <body>
     <!-- header -->
     <?php include 'header.php';?>            
-    <div class="container">      
+    <div class="container-fluid">      
       <!-- main-->      
-      <h2 class="text-center">KIDS</h2>
+      <h1 class="text-center">ТАРИФЫ KIDS</h1>
       <h4 class="text-center">АКТЁРСКОЕ ПОРТФОЛИО & МОДЕЛЬНЫЕ ТЕСТЫ</h4>
+      <p>Важно. В стоимость включена аренда фотостудии People Studio. Каждый дополнительный час фотосъёмки оплачивается отдельно. При заказе от 3-х часов, стоимость на 3 час и последующие часы 5000 р./час. Работа стилиста по волосам оплачивается отдельно, от 2500 р./образ. Стоимость фотосъёмки без аренды фотостудии и работы стилиста от 6000 р./час</p>
+      <p>Дополнительные услуги. Монтаж showreel из ваших видеоработ - 7000 р./ролик до 2 минут. Подбор и аренда костюма для съёмки (стоимость подбора и аренды рассчитывается индивидуально). Консультация и помощь стилиста во время съёмки от 5000 р./2 образа под стиль съёмки.</p>
       <div class="row">
         <div class="col-sm-4">
           <div class="bordered-div">
-          <h4 class="text-center">"Экспресс" 6 000 р.</h4>
+          <h4 class="text-center">«Экспресс» 6 000 р.</h4>
           <ul>
             <li>Время фото-съёмки: 1 час</li>
             <li>Подбор одежды и аксессуаров из вашего гардероба</li>
@@ -36,12 +38,13 @@
             <li>50 фотографий с цветокоррекцией</li>
             <li>5 фотографий с ретушью</li>            
           </ul>                           
-          Группа от 3 человек <h4>4 000 р./чел.</h4>        
+          Группа от 3 человек <strong>4 000 р./чел.</strong>
+          <button type="button" class="btn-block btn-xl-red" onclick="location.href = 'actors.php'"><strong>ЗАКАЗАТЬ</strong></button>
         </div>
         </div>
         <div class="col-sm-4">
           <div class="bordered-div">
-          <h4 class="text-center">"Стандарт" 10 000 р.</h4>
+          <h4 class="text-center">«Стандарт» 10 000 р.</h4>
           <ul>
             <li>Время фото-съёмки: 2 часа</li>
             <li>2 стиля (фона)</li>            
@@ -54,12 +57,13 @@
             <li>100 фотографий с цветокоррекцией</li>
             <li>10 фотографий с ретушью</li>                 
           </ul>                           
-          Группа от 3 человек <h4>8 000 р./чел.</h4>        
+          Группа от 3 человек <strong>8 000 р./чел.</strong>
+          <button type="button" class="btn-block btn-xl-red" onclick="location.href = 'actors.php'"><strong>ЗАКАЗАТЬ</strong></button>
         </div>
         </div>
         <div class="col-sm-4">
           <div class="bordered-div">
-          <h4 class="text-center">"Max" 12 500 р.</h4>
+          <h4 class="text-center">«Max» 12 500 р.</h4>
           <ul>
             <li>Время фото-съёмки: 2-2.5 часа</li>
             <li>3 стиля (фона)</li>            
@@ -75,64 +79,18 @@
             <li>10 фотографий с ретушью</li>            
             <li>Авторское портфолио ACTOR BOOK (печатная и цифровая версия)</li>
           </ul>                           
-          Группа от 3 человек <h4>10 000 р./чел.</h4>        
+          Группа от 3 человек <strong>10 000 р./чел.</strong>
+          <button type="button" class="btn-block btn-xl-red" onclick="location.href = 'actors.php'"><strong>ЗАКАЗАТЬ</strong></button>
         </div>
         </div>
       </div>
       <br>
       <div class="row">
-        <div class="col-sm-8">
-          <h2 class="text-center">ДЛЯ ЮНОГО АКТЕРА</h2>          
-          <div class="row">
-            <div class="col-sm-6">
-              <h4 class="text-center">ВИДЕОВИЗИТКА</h4>
-              <div class="bordered-div">
-                <h4 class="text-center">"От 3-х лет" 8 000р.</h4>
-                <ul>
-                  <li>Видео-съёмка в фотостудии: 1-1.5 часа</li>
-                  <li>Помощь в выборе материала</li>            
-                  <li>Интервью - вопросы для юного актёра</li>
-                  <li>Работа визажиста-стилиста: 30 минут</li>
-                  <li>Консультация стилиста: 1-2 образа из вашего гардероба</li>
-                  <li>Срок готовности: 10 дней</li>                  
-                </ul>
-                Вы получаете
-                <ul>
-                  <li>Видео - до 1.5 минут в качестве FullHD</li>
-                  <li>Ролик для Instagram</li>                              
-                </ul>                           
-                Ученики театральных студий и модельных школ <h4>7 000 р./чел.</h4>
-                Группа от 3 человек <h4>6 000 р./чел.</h4>
-              </div>
-            </div>
-            <div class="col-sm-6">
-              <h4 class="text-center">SHOWREEL</h4>
-              <div class="bordered-div">
-                <h4 class="text-center">"От 6 лет" 15 000р.</h4>
-                <ul>
-                  <li>Видео-съёмка в фотостудии: 2 часа</li>
-                  <li>Сценарий и помощь в выборе наиболее удачных сцен</li>            
-                  <li>Постановка 2-3 игровых сцен</li>
-                  <li>Реквизит под съёмку (необходимый реквизит под сцены)</li>
-                  <li>Работа визажиста</li>
-                  <li>Консультация стилиста (3 образа)</li>                  
-                  <li>Срок готовности: 14 дней</li> 
-                </ul>
-                Вы получаете
-                <ul>
-                  <li>Видео - до 2 минут в качестве FullHD</li>
-                  <li>Ролик для Instagram</li>                              
-                </ul>                           
-                Ученики театральных студий и модельных школ <h4>12 500 р./чел.</h4>
-                Группа от 3 человек <h4>10 500 р./чел.</h4>
-              </div>
-            </div>          
-          </div>          
-        </div>
-        <div class="col-sm-4">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-6">
           <h4 class="text-center">SHOWREEL + ПОРТФОЛИО</h4>
           <div class="bordered-div">
-            <h4 class="text-center">"Всё включено" 18 000 р.</h4>
+            <h4 class="text-center">«Всё включено» 18 000 р.</h4>
             <ul>
               <li>Видео-съёмка в фотостудии: 2 часа</li>
               <li>Фото-cъёмка: 1 час</li>            
@@ -152,10 +110,12 @@
               <li>5 фотографий с ретушью</li>            
               <li>Авторское портфолио ACTOR BOOK (печатная и цифровая версия)</li>
             </ul>                          
-            Ученики театральных студий и модельных школ<h4>15 000 р./чел.</h4>
-            Группа от 3 человек <h4>14 000 р./чел.</h4>                    
+            Ученики театральных студий и модельных школ<strong>15 500 р./чел.</strong>
+            Группа от 3 человек <strong>14 000 р./чел.</strong>                    
+            <button type="button" class="btn-block btn-xl-red" onclick="location.href = 'actors.php'"><strong>ЗАКАЗАТЬ</strong></button>
           </div>
         </div>
+        <div class="col-sm-3"></div>
       </div>
       <!-- footer-->   
       <?php include 'footer.php';?>      

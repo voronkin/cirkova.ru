@@ -19,7 +19,7 @@
     <?php include 'header.php';?>            
     <!-- div container -->
     <div class="container-fluid">      
-      <!-- main-->      
+      <!-- main-->           
       <div class="row">
         <div class="col-sm-3">
           <h3 class="h3-custom">АКТЁРАМ</h3>

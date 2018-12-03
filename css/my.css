@@ -63,6 +63,8 @@ nav .social {
   border-radius: 0rem; 
   border-color: #000000; 
   padding:15px;
+  height: 100%;
+  width: 100%
 }
 
 a {
