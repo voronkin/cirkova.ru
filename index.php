@@ -1,4 +1,65 @@
-<?php include 'sendmessage.php';?>
+<?php
+require_once './vendor/autoload.php';
+
+$helperLoader = new SplClassLoader('Helpers', './vendor');
+$mailLoader   = new SplClassLoader('SimpleMail', './vendor');
+
+$helperLoader->register();
+$mailLoader->register();
+
+use Helpers\Config;
+use SimpleMail\SimpleMail;
+
+$config = new Config;
+$config->load('./config/config.php');
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $name    = stripslashes(trim($_POST['form-name']));
+    $email   = stripslashes(trim($_POST['form-email']));
+    $phone   = stripslashes(trim($_POST['form-phone']));
+    $subject = stripslashes(trim($_POST['form-subject']));
+    $message = stripslashes(trim($_POST['form-message']));
+    $pattern = '/[\r\n]|Content-Type:|Bcc:|Cc:/i';
+
+    if (preg_match($pattern, $name) || preg_match($pattern, $email) || preg_match($pattern, $subject)) {
+        die("Header injection detected");
+    }
+
+    $emailIsValid = filter_var($email, FILTER_VALIDATE_EMAIL);
+
+    if ($name && $email && $emailIsValid && $subject && $message) {
+        $mail = new SimpleMail();
+
+        $mail->setTo($config->get('emails.to'));
+        $mail->setFrom($config->get('emails.from'));
+        $mail->setSender($name);
+        $mail->setSenderEmail($email);
+        $mail->setSubject($config->get('subject.prefix') . ' ' . $subject);
+
+        $body = "
+        <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">
+        <html>
+            <head>
+                <meta charset=\"utf-8\">
+            </head>
+            <body>
+                <h1>{$subject}</h1>
+                <p><strong>{$config->get('fields.name')}:</strong> {$name}</p>
+                <p><strong>{$config->get('fields.email')}:</strong> {$email}</p>
+                <p><strong>{$config->get('fields.phone')}:</strong> {$phone}</p>
+                <p><strong>{$config->get('fields.message')}:</strong> {$message}</p>
+            </body>
+        </html>";
+
+        $mail->setHtml($body);
+        $mail->send();
+
+        $emailSent = true;
+    } else {
+        $hasError = true;
+    }
+}
+?>
 <!doctype html>
 <html lang="ru">
   <head>
@@ -12,6 +73,9 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link href="css/my.css" rel="stylesheet">
 
+    
+
+
     <title>CK Production - Photo & Video Production</title>
   </head>
   <body>
@@ -21,8 +85,8 @@
     <div class="container-fluid">      
       <!-- main-->           
       <div class="row">
-        <div class="col-sm-3">
-          <h3 class="h3-custom">АКТЁРАМ</h3>
+        <div class="col-sm-3 element">
+          <h3 class="h3-custom">АКТЁРАМ</h3>          
           <div class="card">
             <a href="actors.php"><img class="card-img-top" src="img/01.jpg" alt="Card image cap"></a>            
             <div class="card-body">                            
@@ -30,7 +94,7 @@
             </div>
           </div>
         </div>        
-        <div class="col-sm-3">
+        <div class="col-sm-3 element">
           <h3 class="h3-custom">БИЗНЕС-ПОРТРЕТ</h3>
           <div class="card">
             <a href="business.php"><img class="card-img-top" src="img/02.jpg" alt="Card image cap"></a>     
@@ -39,7 +103,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-3 element">
           <h3 class="h3-custom">KIDS</h3>
           <div class="card">
             <a href="kids.php"><img class="card-img-top" src="img/03.jpg" alt="Card image cap"></a>     
@@ -48,7 +112,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-3 element">
           <h3 class="h3-custom">ВИДЕО</h3>
           <div class="card">
             <img class="card-img-top" src="img/04.jpg" alt="ВИДЕО">
@@ -86,5 +150,13 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/grids.min.js"></script>
+
+    <script type="text/javascript">
+      jQuery(function($) {
+        $('.element').responsiveEqualHeightGrid();  
+      });
+    </script>
+    
   </body>
 </html>

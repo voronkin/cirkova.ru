@@ -1,46 +1,62 @@
 <?php
-  if (isset($_POST["submit"])) {
-    $name = $_POST['name'];
-    $email = $_POST['email'];
-    $message = $_POST['message'];
-    $human = intval($_POST['human']);
-    $from = 'Demo Contact Form'; 
-    $to = 'alexander.voronkin@gmail.com'; 
-    $subject = 'Message from Contact Demo ';
-    
-    $body ="From: $name\n E-Mail: $email\n Message:\n $message";
-    // Check if name has been entered
-    if (!$_POST['name']) {
-      $errName = 'Please enter your name';
+require_once './vendor/autoload.php';
+
+$helperLoader = new SplClassLoader('Helpers', './vendor');
+$mailLoader   = new SplClassLoader('SimpleMail', './vendor');
+
+$helperLoader->register();
+$mailLoader->register();
+
+use Helpers\Config;
+use SimpleMail\SimpleMail;
+
+$config = new Config;
+$config->load('./config/config.php');
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $name    = stripslashes(trim($_POST['form-name']));
+    $email   = stripslashes(trim($_POST['form-email']));
+    $phone   = stripslashes(trim($_POST['form-phone']));
+    $subject = stripslashes(trim($_POST['form-subject']));
+    $message = stripslashes(trim($_POST['form-message']));
+    $pattern = '/[\r\n]|Content-Type:|Bcc:|Cc:/i';
+
+    if (preg_match($pattern, $name) || preg_match($pattern, $email) || preg_match($pattern, $subject)) {
+        die("Header injection detected");
     }
-    
-    // Check if email has been entered and is valid
-    if (!$_POST['email'] || !filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
-      $errEmail = 'Please enter a valid email address';
+
+    $emailIsValid = filter_var($email, FILTER_VALIDATE_EMAIL);
+
+    if ($name && $email && $emailIsValid && $subject && $message) {
+        $mail = new SimpleMail();
+
+        $mail->setTo($config->get('emails.to'));
+        $mail->setFrom($config->get('emails.from'));
+        $mail->setSender($name);
+        $mail->setSenderEmail($email);
+        $mail->setSubject($config->get('subject.prefix') . ' ' . $subject);
+
+        $body = "
+        <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">
+        <html>
+            <head>
+                <meta charset=\"utf-8\">
+            </head>
+            <body>
+                <h1>{$subject}</h1>
+                <p><strong>{$config->get('fields.name')}:</strong> {$name}</p>
+                <p><strong>{$config->get('fields.email')}:</strong> {$email}</p>
+                <p><strong>{$config->get('fields.phone')}:</strong> {$phone}</p>
+                <p><strong>{$config->get('fields.message')}:</strong> {$message}</p>
+            </body>
+        </html>";
+
+        $mail->setHtml($body);
+        $mail->send();
+
+        $emailSent = true;
+    } else {
+        $hasError = true;
     }
-    
-    //Check if message has been entered
-    if (!$_POST['message']) {
-      $errMessage = 'Please enter your message';
-    }
-    //Check if simple anti-bot test is correct
-    if ($human !== 5) {
-      $errHuman = 'Your anti-spam is incorrect';
-    }
-// If there are no errors, send the email
-if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
-  $headers = "MIME-Version: 1.0\r\n";
-  $headers .= "Content-type: text/html; charset=windows-1251\r\n";
-  $headers .= "To: $to\r\n";
-  $headers .= "From: Имя отправителя <from@domen.ru>";
-  require_once "smtpauth.php";
-  
-  if (MailSmtp ($to, $subject, $message, $headers)) {
-  //if (mail ($to, $subject, $body, $from)) {
-    $result='<div class="alert alert-success">Thank You! I will be in touch</div>';
-  } else {
-    $result='<div class="alert alert-danger">Sorry there was an error sending your message. Please try again later.</div>';
-  }
 }
-  }
 ?>

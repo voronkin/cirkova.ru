@@ -111,4 +111,8 @@ footer {
 .col-sm-3 {
   padding-left: 15px;
   padding-right: 15px;
+} 
+
+.text-responsive {
+  font-size: calc(100% + 1vw + 1vh);
 }

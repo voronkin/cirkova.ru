@@ -22,20 +22,53 @@
             <p>(c) 2018 cirkovaphoto</p>
           </div>
           <div class="col-sm-3">
-            <form>
-              <div class="form-group">                
-                <input type="text" class="form-control form-control-sm" id="name" name="name" aria-describedby="firstnameHelp" placeholder="Имя*">
-                <?php echo "<p class='text-danger'>$errName</p>";?>
-                <input type="email" class="form-control form-control-sm" id="email" name="email" aria-describedby="emailHelp" placeholder="E-mail*">
-                <?php echo "<p class='text-danger'>$errEmail</p>";?>
-                <input type="phone" class="form-control form-control-sm" id="phone" name="phone" placeholder="Телефон">                
-                <textarea class="form-control form-control-sm" id="message" name="message" rows="3" placeholder="Сообщение"></textarea>
-                <?php echo "<p class='text-danger'>$errMessage</p>";?>
-                <button type="submit" id="submit" class="btn-block btn-outline-secondary">Отправить</button>
-                <small id="emailHelp" class="form-text text-muted">Нажимая на кнопку "Отправить", вы соглашаетесь на обработку персональных данных.</small>  
-                <?php echo $result; ?>  
+          <?php if(!empty($emailSent)): ?>        
+            <div class="alert alert-success text-center"><?php echo $config->get('messages.success'); ?>
+        </div>
+    <?php else: ?>
+        <?php if(!empty($hasError)): ?>        
+            <div class="alert alert-danger text-center"><?php echo $config->get('messages.error'); ?></div>
+        
+        <?php endif; ?>
+        
+        <form action="<?php echo $_SERVER['REQUEST_URI']; ?>" enctype="application/x-www-form-urlencoded" id="contact-form" class="form-horizontal" method="post">
+            <div class="form-group">                
+                
+                    <input type="text" class="form-control" id="form-name" name="form-name" placeholder="<?php echo $config->get('fields.name'); ?>" required>
+                
             </div>
-            </form>
+            <div class="form-group">
+                
+                    <input type="email" class="form-control" id="form-email" name="form-email" placeholder="<?php echo $config->get('fields.email'); ?>" required>
+                
+            </div>
+            <div class="form-group">
+                
+                    <input type="tel" class="form-control" id="form-phone" name="form-phone" placeholder="<?php echo $config->get('fields.phone'); ?>">
+                
+            </div>
+            <div class="form-group">
+                
+                    <input type="text" class="form-control" id="form-subject" name="form-subject" placeholder="<?php echo $config->get('fields.subject'); ?>" required>
+                
+            </div>
+            <div class="form-group">
+                
+                    <textarea class="form-control" rows="3" id="form-message" name="form-message" placeholder="<?php echo $config->get('fields.message'); ?>" required></textarea>
+                
+            </div>
+            <div class="form-group">
+                
+                    <button type="submit" class="btn btn-default"><?php echo $config->get('fields.btn-send'); ?></button>
+                
+            </div>
+        </form>    
+    <?php endif; ?>
+
+    <script type="text/javascript" src="public/js/contact-form.js"></script>
+    <script type="text/javascript">
+        new ContactForm('#contact-form');
+    </script>
           </div>
           <div class="col-sm-3">
             <ul class="nav flex-column">
