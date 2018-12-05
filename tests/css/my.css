@@ -95,8 +95,11 @@ a {
 }
 
 .btn-xl-red {
-  padding: 1rem;
-  font-size: 1.25rem;    
+  padding-top: 0.3rem;
+  padding-right: 0.3rem;
+  padding-bottom: 0.3rem;
+  padding-left: 0.3rem;
+  font-size: 1.5rem;  
   background-color: #9A0000;
   color: #FFFFFF;
   margin-top: 25px;
@@ -130,4 +133,8 @@ footer {
 .card {
   padding-left:30px;
   padding-right:30px;
+}
+
+.fs15{
+  font-size: 1.5rem;
 }
