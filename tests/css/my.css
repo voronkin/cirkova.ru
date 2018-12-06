@@ -1,9 +1,11 @@
 nav .nav-item {
-  padding-bottom: 0px;
+  padding-bottom: 0px; 
+  text-align: right;
 }
 
-nav .social {
+.social {
   padding: 15px 5px 0px 5px;
+  text-align: right;
 }
 
 .navbar {
@@ -108,11 +110,13 @@ a {
 
 footer {
   background-color: #EBEBEB;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 40px;
+  padding-bottom: 20px;
 }
 
-.foofooter {
-  padding: 50px;
-}
+
 
 .col-sm-3 {
   padding-left: 15px;
