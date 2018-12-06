@@ -1,5 +1,27 @@
 **Сайт cirkova.ru**
 
+
+Страницы:
+  header.php
+  footer.php
+  index.php
+
+  actors.php - АКТЁРСКОЕ ПОРТФОЛИО (Фото, ссылки на ТАРИФЫ и ВИДЕО)
+  actors_tariff.php
+
+  business.php
+  business_tariff.php
+
+  kids.php   - KIDS (Фото, ссылки на ТАРИФЫ и ВИДЕО)
+  kids_tariff.php
+
+  video.php - ВИДЕО ВИЗИТКА & SHOWREEL (АКТЁРАМ, БИЗНЕС, ДЕТЯМ)
+  video_tariff.php
+
+  order.php
+  
+
+
 **общие задачи**
   ☐ процедура отсылки сообщения на e-mail
   ☐ хостинг?
