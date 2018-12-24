@@ -15,18 +15,19 @@
     <title>CK Production - Photo & Video Production</title>
   </head>
   <body>
-    <div class="container">
-      <!-- header -->
-      <?php include 'header.php';?>            
+    <!-- header -->
+    <?php include 'header.php';?>            
+    <main role="main" class="container-fluid">            
       <!-- main-->
       <br>
       <h3 class="text-center">ПОЛИТИКА КОНФЕДЕНЦИАЛЬНОСТИ</h3>
-      <br><br><br><br><br><br><br>
-             
+      <br><br><br><br><br><br><br>         
       
-      <!-- footer-->   
-      <?php include 'footer.php';?>      
-    </div>
+      
+      
+    </main>
+    <!-- footer-->   
+    <?php include 'footer.php';?>      
     
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
