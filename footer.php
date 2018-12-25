@@ -22,25 +22,32 @@
     <p><a href="policy.php">Политика конфиденциальности</a></p>
     <p>(c) 2018 cirkovaphoto</p>
   </div>
-  <div class="col-sm-3 bordered-div">
+  <div class="col-sm-3">
     <form id="contact-form" method="post" action="contact.php" role="form">
 
     <div class="messages"></div>
 
     <div class="controls">
-    <div class="row">    
-        <div class="form-group">          
-            <input id="form_name" type="text" name="name" class="form-control" placeholder="Имя *" required="required" data-error="Поле обязательно для заполнения.">
-            <div class="help-block with-errors"></div>
-            <input id="form_email" type="email" name="email" class="form-control" placeholder="E-mail *" required="required" data-error="Введите адрес в корректной форме.">
-            <div class="help-block with-errors"></div>
-            <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Телефон">
-            <div class="help-block with-errors"></div>
-            <textarea id="form_message" name="message" class="form-control" placeholder="Текст сообщения *" rows="4" required="required" data-error="Пожалуйста, введите текст сообщения."></textarea>
-            <div class="help-block with-errors"></div>
-            <input type="submit" class="btn btn-success btn-send" value="Send message">
-        </div>    
-    </div>    
+    
+            <div class="form-group">
+              <input id="form_name" type="text" name="name" class="form-control" placeholder="Имя *" required="required" data-error="Поле обязательно для заполнения.">
+              <div class="help-block with-errors"></div>
+            </div>
+            <div class="form-group">
+              <input id="form_email" type="email" name="email" class="form-control" placeholder="E-mail *" required="required" data-error="Введите адрес в корректной форме.">
+              <div class="help-block with-errors"></div>
+            </div>
+            <div class="form-group">
+              <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Телефон">
+              <div class="help-block with-errors"></div>
+            </div>
+            <div class="form-group">
+              <textarea id="form_message" name="message" class="form-control" placeholder="Текст сообщения *" rows="4" required="required" data-error="Пожалуйста, введите текст сообщения."></textarea>
+              <div class="help-block with-errors"></div>              
+              <input type="submit" class="btn btn-outline-secondary btn-send btn-block" value="Отправить">              
+              <p><small>Нажимая на кнопку "Отправить", вы соглашаетесь на обработку персональных данных</small></p>               
+            </div>
+          
     </div>
 
   </form>

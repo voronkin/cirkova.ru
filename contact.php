@@ -3,10 +3,10 @@
 // configure
 $from = 'Demo contact form <info@metwodotzero.ru>';
 $sendTo = 'Demo contact form <alexander.voronkin@gmail.com>';
-$subject = 'New message from contact form';
+$subject = 'Новое сообщение из контактной формы';
 $fields = array('name' => 'Name', 'surname' => 'Surname', 'phone' => 'Phone', 'email' => 'Email', 'message' => 'Message'); // array variable name => Text to appear in email
-$okMessage = 'Contact form successfully submitted. Thank you, I will get back to you soon!';
-$errorMessage = 'There was an error while submitting the form. Please try again later';
+$okMessage = 'Сообщение удачно отправлено! Мы с вами скоро свяжемся =)';
+$errorMessage = 'Произошла ошибка при отправке сообщения. Попробуйте ещё раз позже.';
 
 // let's do the sending
 
