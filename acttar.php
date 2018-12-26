@@ -46,7 +46,7 @@
           <br>
           Для студентов и учащихся киношкол: <strong>6 000 р.</strong>
           Группа от 3 человек <strong>5 000 р./чел.</strong>
-          <button type="button" class="btn-block btn-xl-red" onclick="location.href = 'actors.php'">ЗАКАЗАТЬ</button>
+          <button type="button" class="btn-block btn-xl-red" onclick="location.href = 'order.php#form_message=Заказ%20по%20тарифу Экспресс'">ЗАКАЗАТЬ</button>
         </div>
         </div>            
         <div class="col-sm-4">
@@ -71,7 +71,7 @@
           <br>
           Для студентов и учащихся киношкол: <strong>10 000 р.</strong>
           Группа от 3 человек <strong>8 000 р./чел.</strong>
-          <button type="button" class="btn-block btn-xl-red" onclick="location.href = 'actors.php'">ЗАКАЗАТЬ</button>
+          <button type="button" class="btn-block btn-xl-red" onclick="location.href = 'order.php#form_message=Заказ%20по%20тарифу%20Стандарт'">ЗАКАЗАТЬ</button>
           
         </div>
         </div>
@@ -95,7 +95,7 @@
           </ul>
           Для студентов и учащихся киношкол: <strong>12 500 р.</strong>
           Группа от 3 человек <strong>10 000 р./чел.</strong>
-          <button type="button" class="btn-block btn-xl-red" onclick="location.href = 'actors.php'">ЗАКАЗАТЬ</button>
+          <button type="button" class="btn-block btn-xl-red" onclick="location.href = 'order.php#form_message=Заказ%20по%20тарифу%20MAX'">ЗАКАЗАТЬ</button>
         </div>
         </div>
       </div>                
@@ -131,7 +131,7 @@
             </ul>                 
             Для студентов и учащихся киношкол: <strong>20 000 р.</strong>
             Группа от 3 человек <strong>18 000 р./чел.</strong>            
-            <button type="button" class="btn-block btn-xl-red" onclick="location.href = 'actors.php'">ЗАКАЗАТЬ</button>
+            <button type="button" class="btn-block btn-xl-red" onclick="location.href = 'order.php#form_message=Заказ%20по%20тарифу%20Showreel%20+%20актёрское портфолио'">ЗАКАЗАТЬ</button>
           </div>
         </div>
         <div class="col-sm-3">
