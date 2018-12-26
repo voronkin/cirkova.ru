@@ -1,4 +1,3 @@
-<?php include 'sendmessage.php';?>
 <!doctype html>
 <html lang="ru">
   <head>

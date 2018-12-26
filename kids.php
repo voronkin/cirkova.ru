@@ -1,4 +1,3 @@
-<?php include 'sendmessage.php';?>
 <!doctype html>
 <html lang="ru">
   <head>
@@ -14,11 +13,11 @@
 
     <title>CK Production - Photo & Video Production</title>
   </head>
-  <body>
-    <div class="container">
+  <body>    
       <!-- header -->
       <?php include 'header.php';?>            
       <!-- main--> 
+      <main role="main" class="container-fluid">
       <!-- portfolio--> 
       <div class="row">
         <div class="col-sm-6">          
@@ -84,10 +83,9 @@
             </div>
           </div>
         </div>
-      </div>      
-      
-    </div>
+      </div>
     <!-- footer-->   
-    <?php include 'footer.php';?>
+  </main>
+  <?php include 'footer.php';?>
   </body>
 </html>

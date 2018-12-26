@@ -12,9 +12,8 @@
 		<title>CK Production - Photo & Video Production</title>
 	</head>
 	<body>
-		<?php include 'header.php';?>    
-
-    <main role="main" class="container-fluid">      
+		<?php include 'header.php';?>
+    <main role="main" class="container-fluid">
       <!-- main-->           
       <div class="row">
         <div class="col-lg-3 element">

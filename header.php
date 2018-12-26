@@ -15,8 +15,11 @@
                 <a class="nav-link" href="kids.php">KIDS</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="">ВИДЕО</a>
-            </li>                                                
+                <a class="nav-link" href="video.php">ВИДЕО</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="offers.php">СПЕЦПРЕДЛОЖЕНИЯ</a>
+            </li>
         </ul>
         <div class="social">
           <a href="https://www.instagram.com/cirkovaprod"><i class="fab fa-instagram fa-2x"></i></a>

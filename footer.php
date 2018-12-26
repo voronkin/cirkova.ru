@@ -54,19 +54,21 @@
   </div>
   <div class="col-sm-3">
     <ul class="nav flex-column">        
-    <li class="nav-item">
-    <a class="nav-link" href="actors.php">АКТЕРАМ</a>
-    </li>
-    <li class="nav-item">
-    <a class="nav-link" href="business.php">БИЗНЕС-ПОРТРЕТ</a>
-    </li>
-    <li class="nav-item">
-    <a class="nav-link" href="kids.php">KIDS</a>
-    </li>
-    <li class="nav-item">
-    <a class="nav-link" href="video.php">ВИДЕО</a>
-    </li>
-
+      <li class="nav-item">
+      <a class="nav-link" href="actors.php">АКТЕРАМ</a>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link" href="business.php">БИЗНЕС-ПОРТРЕТ</a>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link" href="kids.php">KIDS</a>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link" href="video.php">ВИДЕО</a>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link" href="offers.php">СПЕЦПРЕДЛОЖЕНИЯ</a>
+      </li>
     </ul>
   </div>
 </div>
