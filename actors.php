@@ -18,7 +18,7 @@
   <body>
     <!-- header -->
     <?php include 'header.php';?>            
-    <main role="main" class="container-fluid">            
+    <main role="main" class="container-fluid">
       
       <!-- portfolio-->
       <h3 class="text-center">АКТЁРСКОЕ ПОРТФОЛИО</h3>      
