@@ -13,7 +13,7 @@
     <link href="css/ekko-lightbox.css" rel="stylesheet">
     <link href="css/my.css" rel="stylesheet">
 
-    <title>CK Production - Photo & Video Production</title>
+    <title>CK Production - Photo & Video Production: АКТЁРСКОЕ ПОРТФОЛИО</title>
   </head>
   <body>
     <!-- header -->
@@ -48,6 +48,18 @@
                   </a>
               </div>
           </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+        </div>
+        <div class="col-md-4">
+          <button type="button" class="btn-block btn-xl-red" onclick="location.href = 'acttar.php'">ТАРИФЫ</button>
+        </div>
+        <div class="col-md-4">
+          <button type="button" class="btn-block btn-xl-red" onclick="location.href = 'video.php'">ВИДЕО</button>
+        </div>
+        <div class="col-md-2">
+        </div>
       </div>
 
       <!--
