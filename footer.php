@@ -5,14 +5,14 @@
     <a href="mailto:katerinacirkova3@gmail.com">katerinacirkova3@gmail.com</a> / 8 901 700 45 11
     <div class="row">
     <div class="col-sm-1">
-      <i class="fab fa-facebook fa-2x"></i>
+      <a href="https://www.facebook.com/cirkovaph"><i class="fab fa-facebook fa-2x"></i></a>
     </div>
     <div class="col-sm-1">
-      <i class="fab fa-vk fa-2x"></i>                
+      <a href="https://vk.com/cirkovaprod"><i class="fab fa-vk fa-2x"></i></a>
     </div>
     <div class="col-sm-1">
-      <i class="fab fa-instagram fa-2x"></i>
-    </div>
+      <a href="https://www.instagram.com/cirkovaprod"><i class="fab fa-instagram fa-2x"></i></a>
+    </div>   
     <div class="col-sm-6">
       Я в соцсетях.<br>Подключайтесь<br>и следите за акциями.
     </div>
@@ -68,6 +68,9 @@
       </li>
       <li class="nav-item">
       <a class="nav-link" href="offers.php">СПЕЦПРЕДЛОЖЕНИЯ</a>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link" href="reviews.php">ОТЗЫВЫ</a>
       </li>
     </ul>
   </div>

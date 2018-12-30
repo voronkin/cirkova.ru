@@ -20,6 +20,9 @@
             <li class="nav-item">
                 <a class="nav-link" href="offers.php">СПЕЦПРЕДЛОЖЕНИЯ</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="reviews.php">ОТЗЫВЫ</a>
+            </li>
         </ul>
         <div class="social">
           <a href="https://www.instagram.com/cirkovaprod"><i class="fab fa-instagram fa-2x"></i></a>

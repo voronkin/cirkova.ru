@@ -48,7 +48,7 @@
           <div class="card">
             <img class="card-img-top" src="img/04.jpg" alt="ВИДЕО">
             <div class="card-body">              
-              <button type="button" class="btn-block btn-xl-red" onclick="location.href = 'aboutme.php'">ПОСМОТРЕТЬ<br>ТАРИФЫ</button>
+              <button type="button" class="btn-block btn-xl-red" onclick="location.href = 'videotar.php'">ПОСМОТРЕТЬ<br>ТАРИФЫ</button>
             </div>
           </div>
         </div>

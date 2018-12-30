@@ -26,25 +26,62 @@
       <div class="row justify-content-center">
           <div class="col-md-8">
               <div class="row">
-                  <a href="img/01.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-                      <img src="img/01.jpg" class="img-fluid">
+                  <a href="img/actors/01.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                      <img src="img/actors/01.jpg" class="img-fluid">
                   </a>
-                  <a href="img/02.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-                      <img src="img/02.jpg" class="img-fluid">
+                  <a href="img/actors/02.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                      <img src="img/actors/02.jpg" class="img-fluid">
                   </a>
-                  <a href="img/03.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-                      <img src="img/03.jpg" class="img-fluid">
+                  <a href="img/actors/03.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                      <img src="img/actors/03.jpg" class="img-fluid">
                   </a>
               </div>
+              <br>
               <div class="row">
-                  <a href="img/01.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-                      <img src="img/01.jpg" class="img-fluid">
+                  <a href="img/actors/04.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                      <img src="img/actors/04.jpg" class="img-fluid">
                   </a>
-                  <a href="img/02.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-                      <img src="img/02.jpg" class="img-fluid">
+                  <a href="img/actors/05.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                      <img src="img/actors/05.jpg" class="img-fluid">
                   </a>
-                  <a href="img/03.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-                      <img src="img/03.jpg" class="img-fluid">
+                  <a href="img/actors/06.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                      <img src="img/actors/06.jpg" class="img-fluid">
+                  </a>
+              </div>
+              <br>
+              <div class="row">
+                  <a href="img/actors/07.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                      <img src="img/actors/07.jpg" class="img-fluid">
+                  </a>
+                  <a href="img/actors/08.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                      <img src="img/actors/08.jpg" class="img-fluid">
+                  </a>
+                  <a href="img/actors/09.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                      <img src="img/actors/09.jpg" class="img-fluid">
+                  </a>
+              </div>
+              <br>
+              <div class="row">
+                  <a href="img/actors/10.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                      <img src="img/actors/10.jpg" class="img-fluid">
+                  </a>
+                  <a href="img/actors/11.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                      <img src="img/actors/11.jpg" class="img-fluid">
+                  </a>
+                  <a href="img/actors/12.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                      <img src="img/actors/12.jpg" class="img-fluid">
+                  </a>
+              </div>
+              <br>
+              <div class="row">
+                  <a href="img/actors/13.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                      <img src="img/actors/13.jpg" class="img-fluid">
+                  </a>
+                  <a href="img/actors/14.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                      <img src="img/actors/14.jpg" class="img-fluid">
+                  </a>
+                  <a href="img/actors/15.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                      <img src="img/actors/15.jpg" class="img-fluid">
                   </a>
               </div>
           </div>
