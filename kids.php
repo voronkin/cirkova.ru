@@ -36,6 +36,7 @@
                       <img src="img/kids/03.jpg" class="img-fluid">
                   </a>
               </div>
+              <br>
               <div class="row">
                   <a href="img/kids/04.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
                       <img src="img/kids/04.jpg" class="img-fluid">
@@ -47,6 +48,7 @@
                       <img src="img/kids/06.jpg" class="img-fluid">
                   </a>
               </div>
+              <br>
               <div class="row">
                   <a href="img/kids/07.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
                       <img src="img/kids/07.jpg" class="img-fluid">
@@ -58,6 +60,7 @@
                       <img src="img/kids/09.jpg" class="img-fluid">
                   </a>
               </div>
+              <br>
               <div class="row">
                   <a href="img/kids/10.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
                       <img src="img/kids/10.jpg" class="img-fluid">
