@@ -70,7 +70,7 @@
       <a class="nav-link" href="offers.php">СПЕЦПРЕДЛОЖЕНИЯ</a>
       </li>
       <li class="nav-item">
-      <a class="nav-link" href="reviews.php">ОТЗЫВЫ</a>
+      <a class="nav-link" href="aboutme.php">ОБО МНЕ</a>
       </li>
     </ul>
   </div>

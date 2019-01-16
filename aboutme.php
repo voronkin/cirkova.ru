@@ -20,7 +20,7 @@
       <br>
       <div class="row">
         <div class="col-sm-4">
-          <img class="card-img-top" src="img/me.png" alt="Card image cap">
+          <img class="card-img-top" src="img/me.jpg" alt="Обо мне">
         </div>
         <div class="col-sm-8">
           <h5>Привет.</h5>          
