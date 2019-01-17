@@ -5,20 +5,20 @@
     </button>
     <div id="navbarNavDropdown" class="navbar-collapse collapse">            
         <ul class="navbar-nav mr-auto">                
-            <li class="nav-item">
-                <a class="nav-link" href="actors.php">АКТЁРАМ</a>
+            <li class="nav-item text-center">
+                <a class="nav-link" href="actors.php">АКТЁРСКОЕ ПОРТФОЛИО</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="business.php">БИЗНЕС-ПОРТРЕТ</a>
+                <a class="nav-link text-center" href="business.php">ДЕЛОВОЙ ПОРТРЕТ</a>
             </li>                
             <li class="nav-item">
                 <a class="nav-link" href="kids.php">KIDS</a>
-            </li>
-            <li class="nav-item">
+            </li
+>            <li class="nav-item">
                 <a class="nav-link" href="video.php">ВИДЕО</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="offers.php">СПЕЦПРЕДЛОЖЕНИЯ</a>
+                <a class="nav-link text-center" href="offers.php">СПЕЦИАЛЬНЫЕ ПРЕДЛОЖЕНИЯ</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="aboutme.php">ОБО МНЕ</a>

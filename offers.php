@@ -47,44 +47,24 @@
     </div>
       <div class="col-md-2">
       </div>
-    </div>
-    <div class="row justify-content-center">
-      <div class="col-md-8">
-          <div class="row">
-              <a href="img/special/pd/pd01.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-                  <img src="img/special/pd/pd01.jpg" class="img-fluid">
-              </a>
-              <a href="img/special/pd/pd02.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-                  <img src="img/special/pd/pd02.jpg" class="img-fluid">
-              </a>
-              <a href="img/special/pd/pd03.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-                  <img src="img/special/pd/pd03.jpg" class="img-fluid">
-              </a>
-          </div>
-          <div class="row">
-              <a href="img/special/pd/pd04.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-                  <a href="img/special/pd/pd04.jpg" class="img-fluid">
-              </a>
-              <a href="img/special/pd/pd05.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-                  <img src="img/special/pd/pd05.jpg" class="img-fluid">
-              </a>
-              <a href="img/special/pd/pd06.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-                  <img src="img/special/pd/pd06.jpg" class="img-fluid">
-              </a>
-          </div>
-          <div class="row">
-              <a href="img/special/pd/pd07.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-                  <img src="img/special/pd/pd07.jpg" class="img-fluid">
-              </a>
-              <a href="img/special/pd/pd08.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-                  <img src="img/special/pd/pd08.jpg" class="img-fluid">
-              </a>
-              <a href="img/special/pd/pd09.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-                  <img src="img/special/pd/pd09.jpg" class="img-fluid">
-              </a>
-          </div>
-      </div>
-    </div>
+    </div>    
+    <img src="img/special/pd/pd01.jpg" class="img-fluid">
+    <hr>
+    <img src="img/special/pd/pd02.jpg" class="img-fluid">   
+    <hr>
+    <img src="img/special/pd/pd03.jpg" class="img-fluid">
+    <hr>
+    <img src="img/special/pd/pd04.jpg" class="img-fluid">
+    <hr>
+    <img src="img/special/pd/pd05.jpg" class="img-fluid">   
+    <hr>
+    <img src="img/special/pd/pd06.jpg" class="img-fluid">
+    <hr>
+    <img src="img/special/pd/pd07.jpg" class="img-fluid">
+    <hr>
+    <img src="img/special/pd/pd08.jpg" class="img-fluid">   
+    <hr>
+    <img src="img/special/pd/pd09.jpg" class="img-fluid">            
     </main>    
     <!-- footer-->   
     <?php include 'footer.php';?>      

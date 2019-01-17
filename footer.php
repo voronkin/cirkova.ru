@@ -55,10 +55,10 @@
   <div class="col-sm-3">
     <ul class="nav flex-column">        
       <li class="nav-item">
-      <a class="nav-link" href="actors.php">АКТЕРАМ</a>
+      <a class="nav-link" href="actors.php">АКТЁРСКОЕ ПОРТФОЛИО</a>
       </li>
       <li class="nav-item">
-      <a class="nav-link" href="business.php">БИЗНЕС-ПОРТРЕТ</a>
+      <a class="nav-link" href="business.php">ДЕЛОВОЙ ПОРТРЕТ</a>
       </li>
       <li class="nav-item">
       <a class="nav-link" href="kids.php">KIDS</a>

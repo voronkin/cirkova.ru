@@ -17,7 +17,7 @@
       <!-- main-->           
       <div class="row">
         <div class="col-lg-3 element">
-          <h3 class="h3-custom">АКТЁРАМ</h3>          
+          <h3 class="h3-custom">АКТЁРСКОЕ ПОРТФОЛИО</h3>          
           <div class="card">
             <a href="actors.php"><img class="card-img-top" src="img/01.jpg" alt="Card image cap"></a>            
             <div class="card-body">                            
@@ -26,7 +26,7 @@
           </div>
         </div>        
         <div class="col-lg-3 element">
-          <h3 class="h3-custom">БИЗНЕС-ПОРТРЕТ</h3>
+          <h3 class="h3-custom">ДЕЛОВОЙ ПОРТРЕТ</h3>
           <div class="card">
             <a href="business.php"><img class="card-img-top" src="img/02.jpg" alt="Card image cap"></a>     
             <div class="card-body">              

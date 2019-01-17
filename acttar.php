@@ -11,14 +11,14 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link href="css/my.css" rel="stylesheet">
 
-    <title>CK Production - Photo & Video Production</title>
+    <title>CK Production - Photo & Video Production: ТАРИФЫ АКТЁРАМ</title>
   </head>
   <body>
     <!-- header -->
     <?php include 'header.php';?>
     <div class="container-fluid">      
       <!-- main-->
-      <h1 class="text-center">ТАРИФЫ АКТЕРАМ</h1>
+      <h1 class="text-center">ТАРИФЫ АКТЁРАМ</h1>
       <h2 name="actorportf" class="text-center">АКТЁРСКОЕ ПОРТФОЛИО & МОДЕЛЬНЫЕ ТЕСТЫ</h2>
       <p>ВАЖНО.В стоимость включена аренда фотостудии People Studio. Каждый дополнительный час фотосъёмки оплачивается отдельно. При заказе от 3-х часов, стоимость на 3 час и последующие часы - 5000 р./час. Работа стилиста по волосам оплачивается отдельно, от 2 500 р./образ. Стоимость фотосъёмки без аренды фотостудии и работы стилиста от 6 000 р./час.</p>
       <p>Дополнительные услуги. Монтаж showreel из ваших видеоработ: 7 000р./ролик до 2 минут. Подбор и аренда костюма для съёмки (стоимость подбора и аренды рассчитывается индивидуально). Консультация и помощь стилиста во время съёмки: от 5 000 р./ 2 образа под стиль съёмки.</p>

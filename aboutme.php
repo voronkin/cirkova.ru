@@ -28,16 +28,18 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-sm-3">
+        <div class="col-sm-6">
           <img class="card-img-top" src="img/feedback/01.jpg" alt="Card image cap">
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-6">
           <img class="card-img-top" src="img/feedback/02.jpg" alt="Card image cap">
-        </div>
-        <div class="col-sm-3">
+        </div>        
+      </div>
+      <div class="row">
+        <div class="col-sm-6">
           <img class="card-img-top" src="img/feedback/03.jpg" alt="Card image cap">
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-6">
           <img class="card-img-top" src="img/feedback/04.jpg" alt="Card image cap">
         </div>
       </div>

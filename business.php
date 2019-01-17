@@ -13,7 +13,7 @@
     <link href="css/ekko-lightbox.css" rel="stylesheet">
     <link href="css/my.css" rel="stylesheet">
 
-    <title>CK Production - Photo & Video Production: БИЗНЕС-ПОРТРЕТ</title>
+    <title>CK Production - Photo & Video Production: ДЕЛОВОЙ ПОРТРЕТ</title>
   </head>
   <body>
     <!-- header -->
@@ -21,7 +21,7 @@
     <main role="main" class="container-fluid">
       
       <!-- portfolio-->
-      <h3 class="text-center">БИЗНЕС-ПОРТРЕТ</h3>
+      <h3 class="text-center">ДЕЛОВОЙ ПОРТРЕТ</h3>
       <div class="row justify-content-center">
           <div class="col-md-8">
               <div class="row">
@@ -69,54 +69,6 @@
                   </a>
                   <a href="img/business/18.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
                       <img src="img/business/18.jpg" class="img-fluid">
-                  </a>
-              </div>
-              <br>
-              <div class="row">
-                  <a href="img/business/13.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-                      <img src="img/business/13.jpg" class="img-fluid">
-                  </a>
-                  <a href="img/business/14.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-                      <img src="img/business/14.jpg" class="img-fluid">
-                  </a>
-                  <a href="img/business/15.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-                      <img src="img/business/15.jpg" class="img-fluid">
-                  </a>
-              </div>
-              <br>
-              <div class="row">
-                  <a href="img/business/09.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-                      <img src="img/business/09.jpg" class="img-fluid">
-                  </a>
-                  <a href="img/business/12.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-                      <img src="img/business/12.jpg" class="img-fluid">
-                  </a>
-                  <a href="img/business/15.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-                      <img src="img/business/15.jpg" class="img-fluid">
-                  </a>
-              </div>
-              <br>
-              <div class="row">
-                  <a href="img/business/17.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-                      <img src="img/business/17.jpg" class="img-fluid">
-                  </a>
-                  <a href="img/business/19.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-                      <img src="img/business/19.jpg" class="img-fluid">
-                  </a>
-                  <a href="img/business/21.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-                      <img src="img/business/21.jpg" class="img-fluid">
-                  </a>
-              </div>
-              <br>
-              <div class="row">
-                  <a href="img/business/22.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-                      <img src="img/business/22.jpg" class="img-fluid">
-                  </a>
-                  <a href="img/business/23.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-                      <img src="img/business/23.jpg" class="img-fluid">
-                  </a>
-                  <a href="img/business/24.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-                      <img src="img/business/24.jpg" class="img-fluid">
                   </a>
               </div>
           </div>
