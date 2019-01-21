@@ -23,6 +23,59 @@
       <p>ВАЖНО.В стоимость включена аренда фотостудии People Studio. Каждый дополнительный час фотосъёмки оплачивается отдельно. При заказе от 3-х часов, стоимость на 3 час и последующие часы - 5000 р./час. Работа стилиста по волосам оплачивается отдельно, от 2 500 р./образ. Стоимость фотосъёмки без аренды фотостудии и работы стилиста от 6 000 р./час.</p>
       <p>Дополнительные услуги. Монтаж showreel из ваших видеоработ: 7 000р./ролик до 2 минут. Подбор и аренда костюма для съёмки (стоимость подбора и аренды рассчитывается индивидуально). Консультация и помощь стилиста во время съёмки: от 5 000 р./ 2 образа под стиль съёмки.</p>
       <br>
+      <div class="container">
+      <div class="card-deck mb-3 text-center">
+        <div class="card mb-4 box-shadow">
+          <div class="card-header">
+            <h4 class="my-0 font-weight-normal">ЭКСПРЕСС</h4>
+          </div>
+          <div class="card-body d-flex flex-column">
+            <h1 class="card-title pricing-card-title">7000 руб.</h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Постановка задач и стиль съёмки</li>
+              <li>Время съёмки: 1 час</li>
+              <li>Один стиль (фон)</li>
+              <li>Помощь по выбору гардероба</li>
+              <li>Работа с эмоциями на съёмке</li>
+              <li>Срок готовности: 3-5 дней</li>
+            </ul>
+            Вы получаете
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>50 фотографий с цветокоррекцией</li>
+              <li>5 фотографий с ретушью</li> 
+            </ul>
+            <button type="button" class="btn btn-lg btn-block btn-outline-primary mt-auto">Sign up for free</button>
+          </div>
+        </div>
+        <div class="card mb-4 box-shadow">
+          <div class="card-header">
+            <h4 class="my-0 font-weight-normal">СТАНДАРТ</h4>
+          </div>
+          <div class="card-body d-flex flex-column">
+            <h1 class="card-title pricing-card-title">12000 руб.</h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>20 users included</li>
+              <li>10 GB of storage</li>
+            </ul>
+            <button type="button" class="btn btn-lg btn-block btn-primary mt-auto" style="margin-top: auto;">Get started</button>
+          </div>
+        </div>
+        <div class="card mb-4 box-shadow">
+          <div class="card-header">
+            <h4 class="my-0 font-weight-normal">MAX</h4>
+          </div>
+          <div class="card-body d-flex flex-column">
+            <h1 class="card-title pricing-card-title">15000 руб.</h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>30 users included</li>
+              <li>15 GB of storage</li>
+              <li>Phone and email support</li>
+              <li>Help center access</li>
+            </ul>
+            <button type="button" class="btn btn-lg btn-block btn-primary mt-auto">Contact us</button>
+          </div>
+        </div>
+      </div>
       <div class="row equal">
         <div class="col-sm-4">
           <div class="bordered-div d-flex flex-column">

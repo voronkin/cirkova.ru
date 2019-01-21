@@ -24,7 +24,7 @@
       <p>Дополнительные услуги. Монтаж showreel из ваших видеоработ - 7000 р./ролик до 2 минут. Подбор и аренда костюма для съёмки (стоимость подбора и аренды рассчитывается индивидуально). Консультация и помощь стилиста во время съёмки от 5000 р./2 образа под стиль съёмки.</p>
       <div class="row">
         <div class="col-sm-4">
-          <div class="bordered-div">
+          <div class="bordered-div d-flex flex-column">
           <h4 class="text-center">«Экспресс» 6 000 р.</h4>
           <ul>
             <li>Время фото-съёмки: 1 час</li>
@@ -38,11 +38,11 @@
             <li>5 фотографий с ретушью</li>            
           </ul>                           
           Группа от 3 человек <strong>4 000 р./чел.</strong>
-          <button type="button" class="btn-block btn-xl-red" onclick="location.href = 'actors.php'"><strong>ЗАКАЗАТЬ</strong></button>
+          <button type="button" class="btn-block btn-xl-red mt-auto" onclick="location.href = 'actors.php'"><strong>ЗАКАЗАТЬ</strong></button>
         </div>
         </div>
         <div class="col-sm-4">
-          <div class="bordered-div">
+          <div class="bordered-div d-flex flex-column">
           <h4 class="text-center">«Стандарт» 10 000 р.</h4>
           <ul>
             <li>Время фото-съёмки: 2 часа</li>
@@ -57,11 +57,11 @@
             <li>10 фотографий с ретушью</li>                 
           </ul>                           
           Группа от 3 человек <strong>8 000 р./чел.</strong>
-          <button type="button" class="btn-block btn-xl-red" onclick="location.href = 'actors.php'"><strong>ЗАКАЗАТЬ</strong></button>
+          <button type="button" class="btn-block btn-xl-red mt-auto" onclick="location.href = 'actors.php'"><strong>ЗАКАЗАТЬ</strong></button>
         </div>
         </div>
         <div class="col-sm-4">
-          <div class="bordered-div">
+          <div class="bordered-div d-flex flex-column">
           <h4 class="text-center">«Max» 12 500 р.</h4>
           <ul>
             <li>Время фото-съёмки: 2-2.5 часа</li>
@@ -79,7 +79,7 @@
             <li>Авторское портфолио ACTOR BOOK (печатная и цифровая версия)</li>
           </ul>                           
           Группа от 3 человек <strong>10 000 р./чел.</strong>
-          <button type="button" class="btn-block btn-xl-red" onclick="location.href = 'actors.php'"><strong>ЗАКАЗАТЬ</strong></button>
+          <button type="button" class="btn-block btn-xl-red mt-auto" onclick="location.href = 'actors.php'"><strong>ЗАКАЗАТЬ</strong></button>
         </div>
         </div>
       </div>
@@ -88,7 +88,7 @@
         <div class="col-sm-3"></div>
         <div class="col-sm-6">
           <h4 class="text-center">SHOWREEL + ПОРТФОЛИО</h4>
-          <div class="bordered-div">
+          <div class="bordered-div d-flex flex-column">
             <h4 class="text-center">«Всё включено» 18 000 р.</h4>
             <ul>
               <li>Видео-съёмка в фотостудии: 2 часа</li>
@@ -111,7 +111,7 @@
             </ul>                          
             Ученики театральных студий и модельных школ<strong>15 500 р./чел.</strong>
             Группа от 3 человек <strong>14 000 р./чел.</strong>                    
-            <button type="button" class="btn-block btn-xl-red" onclick="location.href = 'actors.php'"><strong>ЗАКАЗАТЬ</strong></button>
+            <button type="button" class="btn-block btn-xl-red mt-auto" onclick="location.href = 'actors.php'"><strong>ЗАКАЗАТЬ</strong></button>
           </div>
         </div>
         <div class="col-sm-3"></div>
