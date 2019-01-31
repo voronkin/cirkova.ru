@@ -1,8 +1,8 @@
 <?php
 
 // configure
-$from = '<info@metwodotzero.ru>';
-$sendTo = '<alexander.voronkin@gmail.com>';
+$from = '<info@ckprod.ru>';
+$sendTo = '<info@ckprod.ru>';
 $subject = 'Новое сообщение из контактной формы';
 $fields = array('name' => 'Name', 'surname' => 'Surname', 'phone' => 'Phone', 'email' => 'Email', 'message' => 'Message'); // array variable name => Text to appear in email
 $okMessage = 'Сообщение удачно отправлено! Мы с вами скоро свяжемся =)';

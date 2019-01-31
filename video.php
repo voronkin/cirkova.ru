@@ -27,7 +27,7 @@
           <div class="col-md-8">
             <h3 class="text-center">АКТЁРАМ</h3>
             <div class="embed-responsive embed-responsive-16by9">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/4sz-mbn_0o8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/tGZM-gjCX-c" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
             <div class="row">              
               <div class="col-sm-3">
@@ -44,9 +44,9 @@
       <br>
       <div class="row justify-content-center">
           <div class="col-md-8">
-            <h3 class="text-center">БИЗНЕСМЕНАМ</h3>
+            <h3 class="text-center">ДЕЛОВАЯ ВИЗИТКА</h3>
             <div class="embed-responsive embed-responsive-16by9">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/4sz-mbn_0o8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/nXPDRSK1mYg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
             <div class="row">              
               <div class="col-sm-3">
@@ -55,7 +55,7 @@
               <div class="col-sm-6">
               </div>
               <div class="col-sm-3">
-                <button type="button" class="btn-block btn-xl-red" onclick="location.href = 'actors.php'">ФОТО</button>
+                <button type="button" class="btn-block btn-xl-red" onclick="location.href = 'business.php'">ФОТО</button>
               </div>              
             </div>
           </div>
@@ -65,7 +65,26 @@
           <div class="col-md-8">
             <h3 class="text-center">ДЕТЯМ</h3>
             <div class="embed-responsive embed-responsive-16by9">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/4sz-mbn_0o8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/DU-K7f_CMOg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+            <div class="row">              
+              <div class="col-sm-3">
+                <button type="button" class="btn-block btn-xl-red" onclick="location.href = 'videotar.php'">ТАРИФЫ</button>
+              </div>
+              <div class="col-sm-6">
+              </div>
+              <div class="col-sm-3">
+                <button type="button" class="btn-block btn-xl-red" onclick="location.href = 'kids.php'">ФОТО</button>
+              </div>              
+            </div>
+          </div>
+      </div>
+      <br>
+      <div class="row justify-content-center">
+          <div class="col-md-8">
+            <h3 class="text-center">АКТЁРСКИЙ ШОУРИЛ</h3>
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/lBIxcyDpAUY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
             <div class="row">              
               <div class="col-sm-3">
@@ -78,21 +97,8 @@
               </div>              
             </div>
           </div>
-      </div>      
-
-      <!--
-
-      <br>
-      <h3 style="text-align:center">ВИДЕОВИЗИТКА & SHOWREEL</h3>
-      <div class="embed-responsive embed-responsive-16by9">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/4sz-mbn_0o8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-      </div>
-      <br>
-      <div class="embed-responsive embed-responsive-16by9">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/lBIxcyDpAUY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-      </div>    
-      -->   
-      <!-- footer-->   
+      </div>        
+ 
       
     </main>
     <?php include 'footer.php';?>          
